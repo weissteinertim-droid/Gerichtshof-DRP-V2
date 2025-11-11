@@ -1,27 +1,424 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="de">
+<head>
     <meta charset="UTF-8">
-    <title>Meine erste Website</title>
+    <title>Gerichtshof - Deutsches RP V2</title>
+    <meta name="viewport" content="width=800, initial-scale=1.0">
     <style>
-      body {
-        font-family: Arial;
-        background-color: #222;
-        color: white;
-        text-align: center;
-        padding-top: 50px;
-      }
-      h1 {
-        color: #00ffff;
-      }
-      a {
-        color: #ff0080;
-      }
+        body {
+            background: #181818;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #232324;
+            border-radius: 16px;
+            box-shadow: 0 2px 24px #0008;
+            padding: 32px 36px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 30px auto;
+            max-width: 320px;
+        }
+        h1, h2, h3 {
+            color: #ddb145;
+            margin-top: 0;
+        }
+        .ueber-uns {
+            background: #191714;
+            border-left: 5px solid #ddb145;
+            padding: 14px 24px;
+            border-radius: 7px;
+            margin-bottom: 36px;
+        }
+        .team {
+            margin-bottom: 44px;
+        }
+        .team-list {
+            background: #20201b;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-top: 8px;
+            font-size: 1.12em;
+            line-height: 1.7;
+        }
+        .team-list span.num {
+            display: inline-block;
+            width: 36px;
+            font-weight: bold;
+            color: #ddb145;
+        }
+        ul.ausbildungen {
+            padding-left: 20px;
+        }
+        .bewerbung {
+            background: #28281a;
+            border-left: 5px solid #ddb145;
+            padding: 16px 20px;
+            margin-top: 18px;
+            border-radius: 7px;
+        }
+        a.button-link {
+            display: inline-block;
+            margin: 12px 12px 0 0;
+            padding: 14px 24px;
+            color: #181818;
+            background: #ddb145;
+            border-radius: 7px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.07em;
+            transition: background 0.15s;
+        }
+        a.button-link:hover {
+            background: #ceb052;
+        }
     </style>
-  </head>
-  <body>
-    <h1>Willkommen auf meiner Website 😎</h1>
-    <p>Ich habe diese Seite komplett selbst gebaut!</p>
-    <a href="https://github.com">Mein GitHub-Profil</a>
-  </body>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Gerichtshof Deutsches RP V2 Logo" class="logo">
+
+        <h1>Gerichtshof – Deutsches RP V2</h1>
+        
+        <div class="ueber-uns">
+            <h2>Über uns</h2>
+            <p>
+                Der Gerichtshof im Deutschen RP V2 ist zuständig für die Rechtsprechung auf dem Server. Wir kümmern uns um die faire und gerechte Behandlung aller Fälle, beraten im Streitfall und sorgen für die Einhaltung aller Gesetze.<br>
+                Unsere Aufgaben umfassen Gerichtsverhandlungen, Aus- und Weiterbildung neuer Mitglieder, Unterstützung bei Ermittlungen und die Pflege der gesamten Justiz auf dem Server.
+            </p>
+        </div>
+        
+        <div class="team">
+            <h2>Management & Leitung</h2>
+            <div class="team-list">
+                <span class Managment leitung>
+                <span class="num">01</span> Simon Fischer<br>
+                <span class="num">02</span> Alex Fischer<br>
+                <span class="num">03</span> Noch keiner<br>
+                <span class="num">04</span> Noch keiner<br>
+                <span class vorsitzender Richter>
+                <span class="num">05</span> Noch keiner<br>
+                <span class="num">06</span> Noch keiner<br>
+                <span class Vorsitzender anwalt>
+                <span class="num">07</span> Luca Morreti<br>
+                <span class="num">08</span> Luca<br>
+                <span class Hofrat anwärter>
+                <span class="num">09</span> Noch keiner<br>
+                <span class="num">10</span> Noch keiner<br>
+            </div>
+        </div>
+
+        <h2>Alle Ausbildungen</h2>
+        <ul class="ausbildungen">
+            <li>
+                <strong>Funk-Ausbildung</strong><br>
+                Erlerne die professionelle Kommunikation über Funk für Einsätze und Teamkoordination.
+            </li>
+            <li>
+                <strong>Grund-Ausbildung</strong><br>
+                Grundwissen rund um das Gericht, Verhaltensregeln und rechtliche Grundlagen für den Dienst.
+            </li>
+            <li>
+                <strong>Richter-Ausbildung</strong><br>
+                Spezialausbildung für das Leiten von Verhandlungen, Urteilsfindung & Anwendung des digitalen Rechts.
+            </li>
+        </ul>
+
+        <h2>Weitere Infos:</h2>
+        <a href="bewerbung.html" class="button-link">Bewerbungs-Info</a>
+        <a href="kontakt.html" class="button-link">Wo findest du uns?</a>
+    </div>
+</body>
 </html>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Bewerbungs-Info – Gerichtshof Deutsches RP V2</title>
+    <meta name="viewport" content="width=800, initial-scale=1.0">
+    <style>
+        body {
+            background: #181818;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #232324;
+            border-radius: 16px;
+            box-shadow: 0 2px 24px #0008;
+            padding: 32px 36px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 24px auto;
+            max-width: 220px;
+        }
+        h1, h2 {
+            color: #ddb145;
+            margin-top: 0;
+        }
+        ul {
+            margin-bottom: 26px;
+        }
+        a.button-link {
+            display: inline-block;
+            margin: 12px 6px 8px 0;
+            padding: 13px 24px;
+            color: #181818;
+            background: #ddb145;
+            border-radius: 7px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.03em;
+            transition: background 0.15s;
+        }
+        a.button-link:hover {
+            background: #ceb052;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" class="logo" alt="Gerichtshof Logo">
+        <h1>Bewerbungs-Informationen</h1>
+        <p>Du möchtest Teil des Gerichtshofes werden? Bereite folgende Punkte für deine Bewerbung vor:</p>
+        <ul>
+            <li><strong>Mindestalter:</strong> 16 Jahre</li>
+            <li><strong>Gutes Benehmen & einwandfreier Leumund</strong></li>
+            <li><strong>Kurzbeschreibung deiner RP-Erfahrung</strong> (wie lange spielst du RP? Welche Charakterrollen?)</li>
+            <li><strong>Warum möchtest du beim Gerichtshof mitmachen?</strong> Schreibe deine Motivation auf!</li>
+            <li><strong>Discord-Name</strong> für die Kontaktaufnahme</li>
+            <li>Optional: Screenshots/Bilder oder Nachweise deiner bisherigen RP-Laufbahn</li>
+        </ul>
+        <p>Alle Infos direkt in das Bewerbungsformular im Discord eintragen.</p>
+        <a href="index.html" class="button-link">&larr; Zurück</a>
+        <a href="https://discord.gg/pJ26wEySb" class="button-link" target="_blank">Zum Discord-Bewerbungsformular</a>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Wo findest du uns? – Gerichtshof Deutsches RP V2</title>
+    <meta name="viewport" content="width=800, initial-scale=1.0">
+    <style>
+        body {
+            background: #181818;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #232324;
+            border-radius: 16px;
+            box-shadow: 0 2px 24px #0008;
+            padding: 32px 36px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 24px auto;
+            max-width: 220px;
+        }
+        h1, h2 {
+            color: #ddb145;
+            margin-top: 0;
+        }
+        a.button-link {
+            display: inline-block;
+            margin: 12px 6px 0 0;
+            padding: 13px 24px;
+            color: #181818;
+            background: #ddb145;
+            border-radius: 7px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.03em;
+            transition: background 0.15s;
+        }
+        a.button-link:hover {
+            background: #ceb052;
+        }
+        ul {
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" class="logo" alt="Gerichtshof Logo">
+        <h1>Wo findest du uns?</h1>
+        <ul>
+            <li><strong>Discord-Server:</strong><br>
+                <a href="https://discord.gg/pJ26wEySb" target="_blank">discord.gg/pJ26wEySb</a>
+            </li>
+            <li><strong>Im Roleplay-Server:</strong><br>
+                Deutsches RP V2 (Ingame Gerichtshof aufsuchen)
+            </li>
+            <li>Du kannst unser Team jederzeit im Discord anschreiben.</li>
+        </ul>
+        <a href="index.html" class="button-link">&larr; Zurück</a>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Uprank-Informationen – Gerichtshof Deutsches RP V2</title>
+    <meta name="viewport" content="width=800, initial-scale=1.0">
+    <style>
+        body {
+            background: #181818;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #232324;
+            border-radius: 16px;
+            box-shadow: 0 2px 24px #0008;
+            padding: 32px 36px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 24px auto;
+            max-width: 220px;
+        }
+        h1 {
+            color: #ddb145;
+            margin-top: 0;
+        }
+        .ranks {
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .rank-block {
+            background: #191714;
+            border-left: 5px solid #ddb145;
+            border-radius: 8px;
+            margin-bottom: 18px;
+            padding: 18px 24px 12px 24px;
+        }
+        .rank-block h2 {
+            color: #ddb145;
+            margin: 0 0 7px 0;
+            font-size: 1.17em;
+        }
+        ul {
+            margin-top: 5px;
+            margin-bottom: 6px;
+        }
+        .nav {
+            margin-top: 35px;
+        }
+        a.button-link {
+            display: inline-block;
+            margin: 13px 8px 0 0;
+            padding: 13px 24px;
+            color: #181818;
+            background: #ddb145;
+            border-radius: 7px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.03em;
+            transition: background 0.15s;
+        }
+        a.button-link:hover {
+            background: #ceb052;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" class="logo" alt="Gerichtshof Logo">
+        <h1>Uprank-Voraussetzungen</h1>
+        <p>Hier findest du, welche Voraussetzungen du für die jeweiligen Gerichtshof-Ränge erfüllen musst, um ein Uprank zu erhalten:</p>
+
+        <div class="ranks">
+            <div class="rank-block">
+                <h2>Management</h2>
+                <ul>
+                    <li>Entscheidung durch die Management-Leitung oder nach besonderer Bewerbung</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Senior Richter</h2>
+                <ul>
+                    <li>Mindestens 120 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Richter</h2>
+                <ul>
+                    <li>Mindestens 100 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Richter Anwärter</h2>
+                <ul>
+                    <li>Richter-Ausbildung abgeschlossen</li>
+                    <li>Mindestens 90 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Senior Staatsanwalt</h2>
+                <ul>
+                    <li>Mindestens 80 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Staatsanwalt</h2>
+                <ul>
+                    <li>Mindestens 70 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Staatsanwalt Anwärter</h2>
+                <ul>
+                    <li>Mindestens 50 Stunden Dienstzeit</li>
+                    <li>Staatsanwalt-Ausbildung abgeschlossen</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Senior Anwalt</h2>
+                <ul>
+                    <li>Mindestens 30 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Anwalt</h2>
+                <ul>
+                    <li>Grund- und Funk-Ausbildung abgeschlossen</li>
+                    <li>Mindestens 10 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Anwalt Anwärter</h2>
+                <ul>
+                    <li>Beitritt nach erfolgreicher Bewerbung</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="nav">
+            <a href="index.html" class="button-link">&larr; Zurück zur Startseite</a>
+        </div>
+    </div>
+</body>
+</
