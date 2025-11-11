@@ -63,9 +63,20 @@
             margin-top: 18px;
             border-radius: 7px;
         }
-        a {
-            color: #ddb145;
-            text-decoration: underline;
+        a.button-link {
+            display: inline-block;
+            margin: 12px 12px 0 0;
+            padding: 14px 24px;
+            color: #181818;
+            background: #ddb145;
+            border-radius: 7px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.07em;
+            transition: background 0.15s;
+        }
+        a.button-link:hover {
+            background: #ceb052;
         }
     </style>
 </head>
@@ -115,16 +126,79 @@
             </li>
         </ul>
 
-        <h2>So bewirbst du dich:</h2>
-        <div class="bewerbung">
-            <p>
-                Die Bewerbung zum Gerichtshof erfolgt ausschließlich über unser <strong>Bewerbungsformular im Discord</strong>.<br>
-                <a href="https://discord.gg/pJ26wEySb" target="_blank">Jetzt bewerben &rarr; Zum Discord</a>
-            </p>
-            <p>
-                Bei Fragen kannst du uns auch direkt im Discord kontaktieren. Wir melden uns nach Prüfung deiner Unterlagen!
-            </p>
-        </div>
+        <h2>Weitere Infos:</h2>
+        <a href="bewerbung.html" class="button-link">Bewerbungs-Info</a>
+        <a href="kontakt.html" class="button-link">Wo findest du uns?</a>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Bewerbungs-Info – Gerichtshof Deutsches RP V2</title>
+    <meta name="viewport" content="width=800, initial-scale=1.0">
+    <style>
+        body {
+            background: #181818;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #232324;
+            border-radius: 16px;
+            box-shadow: 0 2px 24px #0008;
+            padding: 32px 36px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 24px auto;
+            max-width: 220px;
+        }
+        h1, h2 {
+            color: #ddb145;
+            margin-top: 0;
+        }
+        ul {
+            margin-bottom: 26px;
+        }
+        a.button-link {
+            display: inline-block;
+            margin: 12px 6px 8px 0;
+            padding: 13px 24px;
+            color: #181818;
+            background: #ddb145;
+            border-radius: 7px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.03em;
+            transition: background 0.15s;
+        }
+        a.button-link:hover {
+            background: #ceb052;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" class="logo" alt="Gerichtshof Logo">
+        <h1>Bewerbungs-Informationen</h1>
+        <p>Du möchtest Teil des Gerichtshofes werden? Bereite folgende Punkte für deine Bewerbung vor:</p>
+        <ul>
+            <li><strong>Mindestalter:</strong> 16 Jahre</li>
+            <li><strong>Gutes Benehmen & einwandfreier Leumund</strong></li>
+            <li><strong>Kurzbeschreibung deiner RP-Erfahrung</strong> (wie lange spielst du RP? Welche Charakterrollen?)</li>
+            <li><strong>Warum möchtest du beim Gerichtshof mitmachen?</strong> Schreibe deine Motivation auf!</li>
+            <li><strong>Discord-Name</strong> für die Kontaktaufnahme</li>
+            <li>Optional: Screenshots/Bilder oder Nachweise deiner bisherigen RP-Laufbahn</li>
+        </ul>
+        <p>Alle Infos direkt in das Bewerbungsformular im Discord eintragen.</p>
+        <a href="index.html" class="button-link">&larr; Zurück</a>
+        <a href="https://discord.gg/pJ26wEySb" class="button-link" target="_blank">Zum Discord-Bewerbungsformular</a>
     </div>
 </body>
 </html>
