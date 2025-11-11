@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Wo findest du uns? – Gerichtshof Deutsches RP V2</title>
+    <meta name="viewport" content="width=800, initial-scale=1.0">
+    <style>
+        body {
+            background: #181818;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #232324;
+            border-radius: 16px;
+            box-shadow: 0 2px 24px #0008;
+            padding: 32px 36px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 24px auto;
+            max-width: 220px;
+        }
+        h1, h2 {
+            color: #ddb145;
+            margin-top: 0;
+        }
+        a.button-link {
+            display: inline-block;
+            margin: 12px 6px 0 0;
+            padding: 13px 24px;
+            color: #181818;
+            background: #ddb145;
+            border-radius: 7px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.03em;
+            transition: background 0.15s;
+        }
+        a.button-link:hover {
+            background: #ceb052;
+        }
+        ul {
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" class="logo" alt="Gerichtshof Logo">
+        <h1>Wo findest du uns?</h1>
+        <ul>
+            <li><strong>Discord-Server:</strong><br>
+                <a href="https://discord.gg/pJ26wEySb" target="_blank">discord.gg/pJ26wEySb</a>
+            </li>
+            <li><strong>Im Roleplay-Server:</strong><br>
+                Deutsches RP V2 (Ingame Gerichtshof aufsuchen)
+            </li>
+            <li>Du kannst unser Team jederzeit im Discord anschreiben.</li>
+        </ul>
+        <a href="index.html" class="button-link">&larr; Zurück</a>
+    </div>
+</body>
+</html>
