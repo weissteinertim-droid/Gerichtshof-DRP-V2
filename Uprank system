@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Uprank-Informationen – Gerichtshof Deutsches RP V2</title>
+    <meta name="viewport" content="width=800, initial-scale=1.0">
+    <style>
+        body {
+            background: #181818;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #232324;
+            border-radius: 16px;
+            box-shadow: 0 2px 24px #0008;
+            padding: 32px 36px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 24px auto;
+            max-width: 220px;
+        }
+        h1 {
+            color: #ddb145;
+            margin-top: 0;
+        }
+        .ranks {
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .rank-block {
+            background: #191714;
+            border-left: 5px solid #ddb145;
+            border-radius: 8px;
+            margin-bottom: 18px;
+            padding: 18px 24px 12px 24px;
+        }
+        .rank-block h2 {
+            color: #ddb145;
+            margin: 0 0 7px 0;
+            font-size: 1.17em;
+        }
+        ul {
+            margin-top: 5px;
+            margin-bottom: 6px;
+        }
+        .nav {
+            margin-top: 35px;
+        }
+        a.button-link {
+            display: inline-block;
+            margin: 13px 8px 0 0;
+            padding: 13px 24px;
+            color: #181818;
+            background: #ddb145;
+            border-radius: 7px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.03em;
+            transition: background 0.15s;
+        }
+        a.button-link:hover {
+            background: #ceb052;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" class="logo" alt="Gerichtshof Logo">
+        <h1>Uprank-Voraussetzungen</h1>
+        <p>Hier findest du, welche Voraussetzungen du für die jeweiligen Gerichtshof-Ränge erfüllen musst, um ein Uprank zu erhalten:</p>
+
+        <div class="ranks">
+            <div class="rank-block">
+                <h2>Management</h2>
+                <ul>
+                    <li>Entscheidung durch die Management-Leitung oder nach besonderer Bewerbung</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Senior Richter</h2>
+                <ul>
+                    <li>Mindestens 120 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Richter</h2>
+                <ul>
+                    <li>Mindestens 100 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Richter Anwärter</h2>
+                <ul>
+                    <li>Richter-Ausbildung abgeschlossen</li>
+                    <li>Mindestens 90 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Senior Staatsanwalt</h2>
+                <ul>
+                    <li>Mindestens 80 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Staatsanwalt</h2>
+                <ul>
+                    <li>Mindestens 70 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Staatsanwalt Anwärter</h2>
+                <ul>
+                    <li>Mindestens 50 Stunden Dienstzeit</li>
+                    <li>Staatsanwalt-Ausbildung abgeschlossen</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Senior Anwalt</h2>
+                <ul>
+                    <li>Mindestens 30 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Anwalt</h2>
+                <ul>
+                    <li>Grund- und Funk-Ausbildung abgeschlossen</li>
+                    <li>Mindestens 10 Stunden Dienstzeit</li>
+                </ul>
+            </div>
+            <div class="rank-block">
+                <h2>Anwalt Anwärter</h2>
+                <ul>
+                    <li>Beitritt nach erfolgreicher Bewerbung</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="nav">
+            <a href="index.html" class="button-link">&larr; Zurück zur Startseite</a>
+        </div>
+    </div>
+</body>
+</html>
