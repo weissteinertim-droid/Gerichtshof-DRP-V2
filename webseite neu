@@ -133,3 +133,9 @@
 </body>
 </html>
 
+...
+<h2>Weitere Infos:</h2>
+<a href="bewerbung.html" class="button-link">Bewerbungs-Info</a>
+<a href="kontakt.html" class="button-link">Wo findest du uns?</a>
+<a href="uprank.html" class="button-link">Uprank-Regeln & Ränge</a>
+...
