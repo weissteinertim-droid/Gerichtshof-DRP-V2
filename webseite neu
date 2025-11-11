@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerichtshof - Deutsches RP V2</title>
+    <meta name="viewport" content="width=800, initial-scale=1.0">
+    <style>
+        body {
+            background: #181818;
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #232324;
+            border-radius: 16px;
+            box-shadow: 0 2px 24px #0008;
+            padding: 32px 36px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 30px auto;
+            max-width: 320px;
+        }
+        h1, h2, h3 {
+            color: #ddb145;
+            margin-top: 0;
+        }
+        .ueber-uns {
+            background: #191714;
+            border-left: 5px solid #ddb145;
+            padding: 14px 24px;
+            border-radius: 7px;
+            margin-bottom: 36px;
+        }
+        .team {
+            margin-bottom: 44px;
+        }
+        .team-list {
+            background: #20201b;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-top: 8px;
+            font-size: 1.12em;
+            line-height: 1.7;
+        }
+        .team-list span.num {
+            display: inline-block;
+            width: 36px;
+            font-weight: bold;
+            color: #ddb145;
+        }
+        ul.ausbildungen {
+            padding-left: 20px;
+        }
+        .bewerbung {
+            background: #28281a;
+            border-left: 5px solid #ddb145;
+            padding: 16px 20px;
+            margin-top: 18px;
+            border-radius: 7px;
+        }
+        a {
+            color: #ddb145;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Gerichtshof Deutsches RP V2 Logo" class="logo">
+
+        <h1>Gerichtshof – Deutsches RP V2</h1>
+        
+        <div class="ueber-uns">
+            <h2>Über uns</h2>
+            <p>
+                Der Gerichtshof im Deutschen RP V2 ist zuständig für die Rechtsprechung auf dem Server. Wir kümmern uns um die faire und gerechte Behandlung aller Fälle, beraten im Streitfall und sorgen für die Einhaltung aller Gesetze.<br>
+                Unsere Aufgaben umfassen Gerichtsverhandlungen, Aus- und Weiterbildung neuer Mitglieder, Unterstützung bei Ermittlungen und die Pflege der gesamten Justiz auf dem Server.
+            </p>
+        </div>
+        
+        <div class="team">
+            <h2>Management & Leitung</h2>
+            <div class="team-list">
+                <span class="num">01</span> Simon Fischer<br>
+                <span class="num">02</span> Alex Fischer<br>
+                <span class="num">03</span> Noch keiner<br>
+                <span class="num">04</span> Noch keiner<br>
+                <span class="num">05</span> Noch keiner<br>
+                <span class="num">06</span> Noch keiner<br>
+                <span class="num">07</span> Luca Morreti<br>
+                <span class="num">08</span> Luca<br>
+                <span class="num">09</span> Noch keiner<br>
+                <span class="num">10</span> Noch keiner<br>
+            </div>
+        </div>
+
+        <h2>Alle Ausbildungen</h2>
+        <ul class="ausbildungen">
+            <li>
+                <strong>Funk-Ausbildung</strong><br>
+                Erlerne die professionelle Kommunikation über Funk für Einsätze und Teamkoordination.
+            </li>
+            <li>
+                <strong>Grund-Ausbildung</strong><br>
+                Grundwissen rund um das Gericht, Verhaltensregeln und rechtliche Grundlagen für den Dienst.
+            </li>
+            <li>
+                <strong>Richter-Ausbildung</strong><br>
+                Spezialausbildung für das Leiten von Verhandlungen, Urteilsfindung & Anwendung des digitalen Rechts.
+            </li>
+        </ul>
+
+        <h2>So bewirbst du dich:</h2>
+        <div class="bewerbung">
+            <p>
+                Die Bewerbung zum Gerichtshof erfolgt ausschließlich über unser <strong>Bewerbungsformular im Discord</strong>.<br>
+                <a href="https://discord.gg/pJ26wEySb" target="_blank">Jetzt bewerben &rarr; Zum Discord</a>
+            </p>
+            <p>
+                Bei Fragen kannst du uns auch direkt im Discord kontaktieren. Wir melden uns nach Prüfung deiner Unterlagen!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
