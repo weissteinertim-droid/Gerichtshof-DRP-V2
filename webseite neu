@@ -97,14 +97,18 @@
         <div class="team">
             <h2>Management & Leitung</h2>
             <div class="team-list">
+                <span class Managment leitung>
                 <span class="num">01</span> Simon Fischer<br>
                 <span class="num">02</span> Alex Fischer<br>
                 <span class="num">03</span> Noch keiner<br>
                 <span class="num">04</span> Noch keiner<br>
+                <span class vorsitzender Richter>
                 <span class="num">05</span> Noch keiner<br>
                 <span class="num">06</span> Noch keiner<br>
+                <span class Vorsitzender anwalt>
                 <span class="num">07</span> Luca Morreti<br>
                 <span class="num">08</span> Luca<br>
+                <span class Hofrat anwärter>
                 <span class="num">09</span> Noch keiner<br>
                 <span class="num">10</span> Noch keiner<br>
             </div>
@@ -133,9 +137,3 @@
 </body>
 </html>
 
-...
-<h2>Weitere Infos:</h2>
-<a href="bewerbung.html" class="button-link">Bewerbungs-Info</a>
-<a href="kontakt.html" class="button-link">Wo findest du uns?</a>
-<a href="uprank.html" class="button-link">Uprank-Regeln & Ränge</a>
-...
